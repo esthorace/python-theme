@@ -1,0 +1,41 @@
+{
+  "name": "python-theme",
+  "version": "1.0.1",
+  "license": "MIT",
+  "publisher": "esthorace",
+  "displayName": "Python Theme",
+  "description": "It’s a beautiful theme inspired by HackTheBox with some visualization enhancements for Python, HTML, and Django.",
+  "icon": "static/python.png",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "python",
+    "django",
+    "dark",
+    "theme",
+    "tema",
+    "color"
+],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Python Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/python-theme-color-theme.json"
+      }
+    ]
+  },
+  "author": {
+    "name": "Esteban H. Acevedo",
+    "email": "esteban.horacio.acevedo@gmail.com",
+    "url": "https://www.linkedin.com/in/esteban-acevedo-aberastain/"
+  },
+  "repository": {
+    "url": "https://github.com/esthorace/python-theme.git",
+    "type": "git"
+  }
+}
