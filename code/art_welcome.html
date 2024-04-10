@@ -1,0 +1,164 @@
+{% extends 'Home/base_home.html' %}
+{% block block_01 %}
+    <!-- Blog entries-->
+    <div class="col-lg-8">
+        <!-- Featured blog post-->
+        {% if articulo_1 %}
+            <div class="card mb-4">
+                {% if articulo_1.imagen %}
+                    <a href="{% url 'ArtDetail' articulo_1.pk %}">
+                        <img class="card-img-top" src="{{ articulo_1.imagen.url }}" alt="..." />
+                    </a>
+                {% endif %}
+                <div class="card-body">
+                    <div class="small text-muted">
+                        Publicado {{ articulo_1.fecha_creacion }} por
+                        <a class="badge bg-secondary text-decoration-none link-light"
+                           href="{% url 'ArtListAutor' articulo_1.autor.pk %}">{{ articulo_1.autor }}</a>
+                        {% if articulo_1.autor.avatar %}
+                            <img class="img rounded-circle"
+                                 src="{{ articulo_1.autor.avatar.imagen.url }}"
+                                 alt=""
+                                 height="30px">
+                        {% endif %}
+                    </div>
+                    <h2 class="card-title">{{ articulo_1.titulo }}</h2>
+                    <p class="card-text">{{ articulo_1.subtitulo }}</p>
+                    <a class="btn btn-primary" href="{% url 'ArtDetail' articulo_1.pk %}">Ver</a>
+                </div>
+            </div>
+        {% endif %}
+        <!-- Nested row for non-featured blog posts-->
+        <div class="row">
+            <div class="col-lg-6">
+                <!-- Blog post-->
+                {% if articulo_2 %}
+                    <div class="card mb-4">
+                        {% if articulo_2.imagen %}
+                            <a href="{% url 'ArtDetail' articulo_2.pk %}">
+                                <img class="card-img-top" src="{{ articulo_2.imagen.url }}" alt="..." />
+                            </a>
+                        {% else %}
+                            <p>Sin imagen.</p>
+                        {% endif %}
+                        <div class="card-body">
+                            <div class="small text-muted">
+                                Publicado {{ articulo_2.fecha_creacion }} por
+                                <a class="badge bg-secondary text-decoration-none link-light"
+                                   href="{% url 'ArtListAutor' articulo_2.autor.pk %}">{{ articulo_2.autor }}</a>
+                                {% if articulo_2.autor.avatar %}
+                                    <img class="img rounded-circle"
+                                         src="{{ articulo_2.autor.avatar.imagen.url }}"
+                                         alt=""
+                                         height="30px">
+                                {% endif %}
+                            </div>
+                            <h2 class="card-title h4">{{ articulo_2.titulo }}</h2>
+                            <p class="card-text">{{ articulo_2.subtitulo }}</p>
+                            <a class="btn btn-primary" href="{% url 'ArtDetail' articulo_2.pk %}">Ver</a>
+                        </div>
+                    </div>
+                {% endif %}
+                <!-- Blog post-->
+                {% if articulo_3 %}
+                    <div class="card mb-4">
+                        {% if articulo_3.imagen %}
+                            <a href="{% url 'ArtDetail' articulo_3.pk %}">
+                                <img class="card-img-top" src="{{ articulo_3.imagen.url }}" alt="..." />
+                            </a>
+                        {% else %}
+                            <p>Sin imagen.</p>
+                        {% endif %}
+                        <div class="card-body">
+                            <div class="small text-muted">
+                                Publicado {{ articulo_3.fecha_creacion }} por
+                                <a class="badge bg-secondary text-decoration-none link-light"
+                                   href="{% url 'ArtListAutor' articulo_3.autor.pk %}">{{ articulo_3.autor }}</a>
+                                {% if articulo_3.autor.avatar %}
+                                    <img class="img rounded-circle"
+                                         src="{{ articulo_3.autor.avatar.imagen.url }}"
+                                         alt=""
+                                         height="30px">
+                                {% endif %}
+                            </div>
+                            <h2 class="card-title h4">{{ articulo_3.titulo }}</h2>
+                            <p class="card-text">{{ articulo_3.subtitulo }}</p>
+                            <a class="btn btn-primary" href="{% url 'ArtDetail' articulo_3.pk %}">Ver</a>
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+            <div class="col-lg-6">
+                <!-- Blog post-->
+                {% if articulo_4 %}
+                    <div class="card mb-4">
+                        {% if articulo_4.imagen %}
+                            <a href="{% url 'ArtDetail' articulo_4.pk %}">
+                                <img class="card-img-top" src="{{ articulo_4.imagen.url }}" alt="..." />
+                            </a>
+                        {% else %}
+                            <p>Sin imagen.</p>
+                        {% endif %}
+                        <div class="card-body">
+                            <div class="small text-muted">
+                                Publicado {{ articulo_4.fecha_creacion }} por
+                                <a class="badge bg-secondary text-decoration-none link-light"
+                                   href="{% url 'ArtListAutor' articulo_4.autor.pk %}">{{ articulo_4.autor }}</a>
+                                {% if articulo_4.autor.avatar %}
+                                    <img class="img rounded-circle"
+                                         src="{{ articulo_4.autor.avatar.imagen.url }}"
+                                         alt=""
+                                         height="30px">
+                                {% endif %}
+                            </div>
+                            <h2 class="card-title h4">{{ articulo_4.titulo }}</h2>
+                            <p class="card-text">{{ articulo_4.subtitulo }}</p>
+                            <a class="btn btn-primary" href="{% url 'ArtDetail' articulo_4.pk %}">Ver</a>
+                        </div>
+                    </div>
+                {% endif %}
+                <!-- Blog post-->
+                {% if articulo_5 %}
+                    <div class="card mb-4">
+                        {% if articulo_5.imagen %}
+                            <a href="{% url 'ArtDetail' articulo_5.pk %}">
+                                <img class="card-img-top" src="{{ articulo_5.imagen.url }}" alt="..." />
+                            </a>
+                        {% else %}
+                            <p>Sin imagen.</p>
+                        {% endif %}
+                        <div class="card-body">
+                            <div class="small text-muted">
+                                Publicado {{ articulo_5.fecha_creacion }} por
+                                <a class="badge bg-secondary text-decoration-none link-light"
+                                   href="{% url 'ArtListAutor' articulo_5.autor.pk %}">{{ articulo_5.autor }}</a>
+                                {% if articulo_5.autor.avatar %}
+                                    <img class="img rounded-circle"
+                                         src="{{ articulo_5.autor.avatar.imagen.url }}"
+                                         alt=""
+                                         height="30px">
+                                {% endif %}
+                            </div>
+                            <h2 class="card-title h4">{{ articulo_5.titulo }}</h2>
+                            <p class="card-text">{{ articulo_5.subtitulo }}</p>
+                            <a class="btn btn-primary" href="{% url 'ArtDetail' articulo_5.pk %}">Ver</a>
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+        {% comment %} <!-- Pagination-->
+                            <nav aria-label="Pagination">
+                                <hr class="my-0" />
+                                <ul class="pagination justify-content-center my-4">
+                                <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Newer</a></li>
+                            <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                            <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">15</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">Older</a></li>
+                        </ul>
+</nav> {% endcomment %}
+</div>
+{% endblock block_01 %}

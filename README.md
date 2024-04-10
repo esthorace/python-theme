@@ -4,7 +4,7 @@ It’s a beautiful theme inspired by HackTheBox with some visualization enhancem
 
 ![capture1](static/capt1.png)
 
-With `Django Support`:
+With `Django Support` extension:
 
 ![capture2](static/capt2.png)
 

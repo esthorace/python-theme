@@ -1727,7 +1727,7 @@
 				"storage.type.class.python",
 				"storage.type.function.python",
 				"keyword.control.flow.python",
-				"keyword.operator.logical.python",				
+				"keyword.operator.logical.python",
 			],
 			"settings": {
 				"foreground": "#CF8DFB",
@@ -1912,6 +1912,16 @@
 			],
 			"settings": {
 				"foreground": "#F87F7F"
+			}
+		},
+		{
+			"name": "HTML: Cadenas en atributos > inicio y fin",
+			"scope": [
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.string.end.html"
+			],
+			"settings": {
+				"foreground": "#f87f7f94"
 			}
 		},
 		{
