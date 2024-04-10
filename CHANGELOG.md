@@ -4,6 +4,10 @@ All notable changes to the "python-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.6] - 2024-04-11
+
+- Improve colors: Python > modules
+
 ## [1.0.5] - 2024-04-10
 
 - Fix images for Python Theme extension

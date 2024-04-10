@@ -1958,7 +1958,7 @@
 			"foreground": "#5DEED1",
 		},
 		"module:python": {
-			"foreground": "#5deed1d5",
+			"foreground": "#5deed1c4",
 		},
 		"selfParameter:python": {
 			"foreground": "#5CB2FF",
