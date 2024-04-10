@@ -1727,7 +1727,7 @@
 				"storage.type.class.python",
 				"storage.type.function.python",
 				"keyword.control.flow.python",
-				"punctuation.separator.colon.python",
+				"keyword.operator.logical.python",				
 			],
 			"settings": {
 				"foreground": "#CF8DFB",
@@ -1773,22 +1773,12 @@
 				"punctuation.separator.arguments.python",
 				"punctuation.separator.annotation.result.python",
 				"punctuation.separator.period.python",
-				"constant.character.escape",
+				"punctuation.separator.colon.python",
 				"keyword.operator.arithmetic.python",
 				"keyword.operator.comparison.python",
 			],
 			"settings": {
 				"foreground": "#b3b3b3"
-			}
-		},
-		{
-			"name": "Python: Booleanos, operadores lógicos",
-			"scope": [
-				"keyword.operator.logical.python",
-				"constant.language.python",
-			],
-			"settings": {
-				"foreground": "#faeeab"
 			}
 		},
 		{
@@ -1806,7 +1796,6 @@
 			"scope": [
 				"punctuation.definition.string.begin.python ",
 				"punctuation.definition.string.end.python",
-				"storage.type.string.python",
 				"punctuation.definition.string.begin.python string.interpolated.python string.quoted.single.python",
 				"punctuation.definition.string.end.python string.interpolated.python string.quoted.single.python",
 			],
@@ -1815,12 +1804,23 @@
 			}
 		},
 		{
+			"name": "Python: Booleanos, None y  Caracteres especiales",
+			"scope": [
+				"storage.type.string.python",
+				"constant.character.escape",
+				"constant.language.python",
+			],
+			"settings": {
+				"foreground": "#F87F7F",
+			}
+		},
+		{
 			"name": "Python: Documentación",
 			"scope": [
 				"string.quoted.docstring.multi.python",
 			],
 			"settings": {
-				"foreground": "#d7e4ff96"
+				"foreground": "#65b5ff9a"
 			}
 		},
 		{
@@ -1828,9 +1828,18 @@
 			"scope": [
 				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
 				"string.quoted.docstring.multi.python punctuation.definition.string.end.python",
+				"punctuation.definition.comment",
 			],
 			"settings": {
-				"foreground": "#d7e4ff50"
+				"foreground": "#65b5ff42"
+			}
+		},
+		{
+			"name": "Python: Comentarios",
+			"scope": "comment.line",
+			"settings": {
+				"foreground": "#65b5ff9a",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1942,11 +1951,11 @@
 			"foreground": "#5deed1d5",
 		},
 		"selfParameter:python": {
-			"foreground": "#F87F7F",
+			"foreground": "#5CB2FF",
 			"italic": false
 		},
 		"clsParameter:python": {
-			"foreground": "#F87F7F",
+			"foreground": "#5CB2FF",
 			"italic": false
 		},
 	}
