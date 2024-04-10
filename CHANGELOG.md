@@ -4,6 +4,11 @@ All notable changes to the "python-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.5] - 2024-04-10
+
+- Fix images for Python Theme extension
+
+
 ## [1.0.4] - 2024-04-10
 
 - Improve colors: Django > strings
