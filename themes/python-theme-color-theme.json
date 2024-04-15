@@ -251,18 +251,14 @@
 		"statusBarItem.remoteForeground": "#ffffff",
 		"tab.activeBackground": "#1a2332",
 		"tab.activeBorder": "#1a2332",
-		"tab.activeBorderTop": "#a4b1cd",
-		"tab.activeForeground": "#ffffff",
+		"tab.activeBorderTop": "#141d2b",
 		"tab.activeModifiedBorder": "#a4b1cd",
 		"tab.border": "#141d2b",
 		"tab.hoverBackground": "#141d2b",
 		"tab.hoverBorder": "#141d2b",
 		"tab.inactiveBackground": "#141d2b",
-		"tab.inactiveForeground": "#a4b1cd",
-		"tab.lastPinnedBorder": "#cccccc33",
+		"tab.inactiveForeground": "#6e7b968c",
 		"tab.unfocusedActiveBorder": "#a4b1cd",
-		"tab.unfocusedActiveBorderTop": "#2b2b2b",
-		"tab.unfocusedHoverBackground": "#1f1f1f",
 		"terminal.ansiBlue": "#004cff",
 		"terminal.ansiBrightBlue": "#5cb2ff",
 		"terminal.ansiBrightCyan": "#5cecc6",
@@ -348,7 +344,27 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#6A9955"
+				"foreground": "#65b5ff9a",
+			}
+		},
+		{
+			"scope": "comment.line",
+			"settings": {
+				"foreground": "#65b5ff9a",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "comment.block",
+			"settings": {
+				"foreground": "#65b5ff9a",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "punctuation.definition.comment",
+			"settings": {
+				"foreground": "#65b5ff42",
 			}
 		},
 		{
@@ -861,16 +877,16 @@
 				"foreground": "#C8C8C8"
 			}
 		},
-		{
-			"scope": [
-				"comment",
-				"punctuation.definition.comment"
-			],
-			"settings": {
-				"foreground": "#d7e4ff79",
-				"fontStyle": "italic"
-			}
-		},
+		// {
+		// 	"scope": [
+		// 		"comment",
+		// 		"punctuation.definition.comment"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#d7e4ff79",
+		// 		"fontStyle": "italic"
+		// 	}
+		// },
 		{
 			"scope": [
 				"variable",
@@ -1004,7 +1020,7 @@
 		},
 		{
 			"scope": [
-				"constant.numeric",
+
 				"constant.language",
 				"support.constant",
 				"constant.character",
@@ -1072,7 +1088,8 @@
 		},
 		{
 			"scope": [
-				"support.type"
+				"support.type",
+				"constant.numeric",
 			],
 			"settings": {
 				"foreground": "#A4B1CD"
@@ -1734,31 +1751,13 @@
 			}
 		},
 		{
-			"name": "Python: Variables",
+			"name": "Python: constantes",
 			"scope": [
 				"variable, meta.member.access.python",
 				"variable.other.constant",
 			],
 			"settings": {
 				"foreground": "#9CDCFE"
-			}
-		},
-		{
-			"name": "Python: Asignación de variables",
-			"scope": [
-				"keyword.operator.assignment.python",
-			],
-			"settings": {
-				"foreground": "#ffffff"
-			}
-		},
-		{
-			"name": "Python: Números",
-			"scope": [
-				"constant.numeric",
-			],
-			"settings": {
-				"foreground": "#D4D4D4"
 			}
 		},
 		{
@@ -1774,11 +1773,13 @@
 				"punctuation.separator.annotation.result.python",
 				"punctuation.separator.period.python",
 				"punctuation.separator.colon.python",
-				"keyword.operator.arithmetic.python",
-				"keyword.operator.comparison.python",
+				// "storage.type.string.python",
+				// "constant.character.escape",
+				// "constant.language.python",
+				
 			],
 			"settings": {
-				"foreground": "#b3b3b3"
+				"foreground": "#A4B1CD"
 			}
 		},
 		{
@@ -1806,9 +1807,12 @@
 		{
 			"name": "Python: Booleanos, None y  Caracteres especiales",
 			"scope": [
-				"storage.type.string.python",
-				"constant.character.escape",
-				"constant.language.python",
+				
+				"keyword.operator.arithmetic",
+				"keyword.operator.comparison",
+				"keyword.operator.assignment",
+				"entity.name.function.decorator.python",
+				"punctuation.definition.decorator.python",
 			],
 			"settings": {
 				"foreground": "#F87F7F",
@@ -1828,18 +1832,9 @@
 			"scope": [
 				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
 				"string.quoted.docstring.multi.python punctuation.definition.string.end.python",
-				"punctuation.definition.comment",
 			],
 			"settings": {
 				"foreground": "#65b5ff42"
-			}
-		},
-		{
-			"name": "Python: Comentarios",
-			"scope": "comment.line",
-			"settings": {
-				"foreground": "#65b5ff9a",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1951,6 +1946,7 @@
 		},
 	],
 	"semanticTokenColors": {
+		"variable:python": "#9CDCFE",
 		"class.typeHint:python": {
 			"foreground": "#5DEED1",
 		},
@@ -1966,6 +1962,10 @@
 		},
 		"clsParameter:python": {
 			"foreground": "#5CB2FF",
+			"italic": false
+		},
+		"class.decorator:python": {
+			"foreground": "#F87F7F",
 			"italic": false
 		},
 	}

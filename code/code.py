@@ -21,5 +21,12 @@ class Person:
 class User(Person, object):
     def generate_password(self) -> str:
         return self.name[::-1]
+    @staticmethod
+    def salary():
+        print("hey")
 
+@noexists
+def salar():
+    print()
+    
 user = User("Hello")
