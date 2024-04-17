@@ -11,7 +11,8 @@ def function(num1: int, num2: int) -> float | None:
     x = 0
     if num2 > x:
         return num1 / num2
-
+    ...
+    
 function(num1=12, num2=2)
 
 class Person:
