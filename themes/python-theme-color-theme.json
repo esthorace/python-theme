@@ -86,9 +86,7 @@
 		"editorCursor.foreground": "#9fef00",
 		"editorGroup.border": "#313f55",
 		"editorGroup.dropBackground": "#6e7b9625",
-		"editorGroupHeader.border": "#313f55",
 		"editorGroupHeader.tabsBackground": "#111927",
-		"editorGroupHeader.tabsBorder": "#2b2b2b",
 		"editorGutter.addedBackground": "#9fef00",
 		"editorGutter.background": "#111927",
 		"editorGutter.commentRangeForeground": "#a4b1cd",
@@ -215,7 +213,6 @@
 		"scrollbarSlider.activeBackground": "#6e7b968c",
 		"scrollbarSlider.background": "#212c3d",
 		"scrollbarSlider.hoverBackground": "#6e7b968c",
-		"selection.background": "#313f55",
 		"settings.checkboxBackground": "#111927",
 		"settings.checkboxBorder": "#111927",
 		"settings.checkboxForeground": "#9fef00",
@@ -235,11 +232,9 @@
 		"sideBar.border": "#141d2b",
 		"sideBar.foreground": "#a4b1cd98",
 		"sideBarSectionHeader.background": "#141d2b",
-		"sideBarSectionHeader.border": "#1a2332",
+		"sideBarSectionHeader.border": "#384252",
 		"sideBarSectionHeader.foreground": "#a4b1cd",
 		"sideBarTitle.foreground": "#a4b1cd98",
-		"statusBar.background": "#0f1825",
-		"statusBar.border": "#1a2332",
 		"statusBar.debuggingBackground": "#ff8484",
 		"statusBar.debuggingForeground": "#111927",
 		"statusBar.focusBorder": "#0078d4",
@@ -248,7 +243,6 @@
 		"statusBar.noFolderForeground": "#a4b1cd",
 		"statusBarItem.focusBorder": "#0078d4",
 		"statusBarItem.prominentBackground": "#6e768166",
-		"statusBarItem.remoteBackground": "#0078d4",
 		"statusBarItem.remoteForeground": "#ffffff",
 		"tab.activeBackground": "#2c3849",
 		"tab.activeBorder": "#111927",
@@ -314,8 +308,14 @@
 		"widget.border": "#313131",
 		"widget.shadow": "#1119277e",
 		"window.activeBorder": "#1a2332",
+        "editorGroupHeader.border": "#141d2b",
+        "editorGroupHeader.tabsBorder": "#141d2b",
         "panelTitle.activeBorder": "#a4b1cd",
         "panelTitle.activeForeground": "#a4b1cd",
+        "selection.background": "#a4b1cd",
+        "statusBar.background": "#1a2332",
+        "statusBar.border": "#1a2332",
+        "statusBarItem.remoteBackground": "#1a2332",
 	},
 	"tokenColors": [
 		{
@@ -781,11 +781,11 @@
 		},
 		{
 			"scope": [
-				"variable",
-				"meta.definition.variable.name",
-				"support.variable",
-				"entity.name.variable",
-				"constant.other.placeholder"
+				"source.python variable",
+				"source.python meta.definition.variable.name",
+				"source.python support.variable",
+				"source.python entity.name.variable",
+				"source.python constant.other.placeholder"
 			],
 			"settings": {
 				"foreground": "#9CDCFE"
@@ -1747,8 +1747,8 @@
 		{
 			"name": "Python: constantes",
 			"scope": [
-				"variable, meta.member.access.python",
-				"variable.other.constant",
+				"source.python variable, meta.member.access.python",
+				"source.python variable.other.constant",
 			],
 			"settings": {
 				"foreground": "#9CDCFE"
@@ -1767,21 +1767,21 @@
 				"punctuation.separator.annotation.result.python",
 				"punctuation.separator.period.python",
 				"punctuation.separator.colon.python",
-				"keyword.operator.arithmetic",
-				"keyword.operator.comparison",
+				// "keyword.operator.arithmetic",
+				// "keyword.operator.comparison",
 			],
 			"settings": {
-				"foreground": "#A4B1CD"
+				"foreground": "#5CECC6"
 			}
 		},
 		{
 			"name": "Python: Booleanos y None",
 			"scope": [
 				"constant.language.python",
-				"keyword.operator.assignment",
+
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#4FC1FF"
 			}
 		},
 		{
@@ -1803,7 +1803,7 @@
 				"punctuation.definition.string.end.python string.interpolated.python string.quoted.single.python",
 			],
 			"settings": {
-				"foreground": "#79B601",
+				"foreground": "#5CECC6",
 			}
 		},
 		{
@@ -1811,6 +1811,9 @@
 			"scope": [
 				"storage.type.class.python",
 				"storage.type.function.python",
+				"source.python keyword.operator.arithmetic",
+				"source.python keyword.operator.comparison",
+				"source.python keyword.operator.assignment",
 			],
 			"settings": {
 				"foreground": "#F87F7F",
@@ -1830,7 +1833,7 @@
 			"name": "Python: Caracteres especiales",
 			"scope": [
 				"storage.type.string.python",
-				"constant.character.escape",
+				"source.python constant.character.escape",
 			],
 			"settings": {
 				"foreground": "#fffeb5"
@@ -1859,7 +1862,7 @@
 		{
 			"name": "Python: Funciones",
 			"scope": [
-				"entity.name.function.member, entity.name.function",
+				"source.python.name.function.member, entity.name.function",
 				"entity.name.function.python",
 			],
 			"settings": {
@@ -1879,7 +1882,7 @@
 		{
 			"name": "Python: Clases",
 			"scope": [
-				"entity.name.type.class",
+				"source.python entity.name.type.class",
 				"punctuation.separator.inheritance.python",
 				"punctuation.definition.inheritance.begin.python",
 			],
@@ -1965,7 +1968,6 @@
 		},
 	],
 	"semanticTokenColors": {
-		"variable:python": "#9CDCFE",
 		"class.typeHint:python": {
 			"foreground": "#5DEED1",
 		},
