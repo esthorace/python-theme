@@ -1874,7 +1874,9 @@
 				"meta.function-call.python meta.function-call.arguments.python variable.parameter.function-call.python",
 			],
 			"settings": {
-				"foreground": "#4FC1FF",
+				// "foreground": "#4FC1FF",
+				"foreground": "#9CDCFE",
+				"fontStyle": "italic",
 			}
 		},
 		{
@@ -1977,11 +1979,11 @@
 		},
 		"selfParameter:python": {
 			"foreground": "#5CB2FF",
-			"italic": false
+			"italic": true
 		},
 		"clsParameter:python": {
 			"foreground": "#5CB2FF",
-			"italic": false
+			"italic": true
 		},
 		"class.decorator:python": {
 			"foreground": "#fffeb5",
