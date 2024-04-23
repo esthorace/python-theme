@@ -1996,6 +1996,7 @@
 		},
 		"variable.declaration.readonly": {
 			"foreground": "#A4B1CD",
-		}
+		},
+		"property:python": "#9CDCFE",
 	}
 }
