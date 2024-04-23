@@ -31,3 +31,4 @@ def salar():
     print()
     
 user = User("Hello")
+user.name
