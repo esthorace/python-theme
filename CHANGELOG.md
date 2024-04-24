@@ -4,6 +4,10 @@ All notable changes to the "python-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1.0] - 2024-04-24
+
+- Improve: theme in general
+
 ## [1.0.9] - 2024-04-16
 
 - Improve: theme in general
