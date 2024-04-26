@@ -1906,6 +1906,7 @@
 				"support.type.variable.begin.django",
 				"support.type.variable.end.django",
 				"support.function.django",
+				"meta.variable.structure.django",
 			],
 			"settings": {
 				"foreground": "#FFCC5C"
@@ -1928,12 +1929,20 @@
 			}
 		},
 		{
+			"name": "HTML: comentario",
+			"scope": "comment.block.html",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "HTML: Cadenas en atributos",
 			"scope": [
 				"string.quoted.double.html"
 			],
 			"settings": {
-				"foreground": "#F87F7F"
+				// "foreground": "#F87F7F"
+				"foreground": "#FF8484"
 			}
 		},
 		{
@@ -1963,16 +1972,19 @@
 	],
 	"semanticTokenColors": {
 		"class.typeHint:python": {
-			"foreground": "#4EC9B0"
+			"foreground": "#5DEED1"
 		},
 		"class.declaration:python": {
 			"foreground": "#5DEED1"
 		},
+		"builtinConstant:python": {
+			"foreground": "#A4B1CD",
+		},
 		"builtinConstant.typeHint:python": {
-			"foreground": "#4EC9B0",
+			"foreground": "#5DEED1",
 		},
 		"module:python": {
-			"foreground": "#5deed1c4",
+			"foreground": "#ffffffdf",
 		},
 		"selfParameter:python": {
 			"foreground": "#5CB2FF",
