@@ -1756,15 +1756,6 @@
 			}
 		},
 		{
-			"name": "Python: Booleanos y None",
-			"scope": [
-				"constant.language.python",
-			],
-			"settings": {
-				"foreground": "#4FC1FF"
-			}
-		},
-		{
 			"name": "Python: Cadenas",
 			"scope": [
 				"string.quoted.single.python",
@@ -1783,7 +1774,7 @@
 				"punctuation.definition.string.end.python string.interpolated.python string.quoted.single.python",
 			],
 			"settings": {
-				"foreground": "#5CECC6",
+				"foreground": "#c5f467a8",
 			}
 		},
 		{
@@ -1803,12 +1794,19 @@
 				"entity.name.function.decorator.python",
 				"punctuation.definition.decorator.python",
 				"punctuation.separator.annotation.result.python",
+			],
+			"settings": {
+				"foreground": "#fffeb5"
+			},
+		},
+		{
+			"scope": [
 				"source.python keyword.operator.arithmetic",
 				"source.python keyword.operator.comparison",
 				"keyword.operator.bitwise.python"
 			],
 			"settings": {
-				"foreground": "#fffeb5"
+				"foreground": "#A4B1CD"
 			}
 		},
 		{
@@ -1827,7 +1825,7 @@
 				"string.quoted.docstring.multi.python",
 			],
 			"settings": {
-				"foreground": "#65b5ff9a"
+				"foreground": "#65b5ffa1"
 			}
 		},
 		{
@@ -1854,16 +1852,28 @@
 			}
 		},
 		{
-			"name": "Python: Funciones > llamada a parámetros",
 			"scope": [
-				"variables.parameters",
-				"meta.function-call.python meta.function-call.arguments.python variable.parameter.function-call.python",
-				"meta.attribute.python"
+				"punctuation.definition.arguments.begin.python",
+				"punctuation.definition.arguments.end.python",
+				"meta.function-call.arguments.python punctuation.separator.arguments.python",
+				"meta.function.parameters.python punctuation.definition.parameters.begin.python",
+				"meta.function.parameters.python punctuation.definition.parameters.end.python",
 			],
 			"settings": {
-				"foreground": "#9CDCFE",
-			}
+				"foreground": "#FFCC5C"
+			},
 		},
+		// {
+		// 	"name": "Python: Funciones > llamada a parámetros",
+		// 	"scope": [
+		// 		"variables.parameters",
+		// 		"meta.function-call.python meta.function-call.arguments.python variable.parameter.function-call.python",
+		// 		"meta.attribute.python"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#9CDCFE",
+		// 	}
+		// },
 		{
 			"name": "Python: Clases",
 			"scope": [
@@ -1874,6 +1884,19 @@
 			],
 			"settings": {
 				"foreground": "#5DEED1",
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.dict.begin.python",
+				"punctuation.definition.dict.end.python",
+				"punctuation.definition.list.begin.python",
+				"punctuation.definition.list.end.python",
+				"punctuation.parenthesis.begin.python",
+				"punctuation.parenthesis.end.python"
+			],
+			"settings": {
+				"foreground": "#5CB2FF"
 			}
 		},
 		// *********************************
@@ -1971,36 +1994,28 @@
 		},
 	],
 	"semanticTokenColors": {
-		"class.typeHint:python": {
-			"foreground": "#5DEED1"
-		},
-		"class.declaration:python": {
-			"foreground": "#5DEED1"
-		},
-		"builtinConstant:python": {
-			"foreground": "#A4B1CD",
-		},
-		"builtinConstant.typeHint:python": {
-			"foreground": "#5DEED1",
-		},
-		"module:python": {
-			"foreground": "#ffffffdf",
-		},
+		// typehint
+		"class.typeHint:python": "#5DEED1",
+		"builtinConstant.typeHint:python": "#5DEED1",
+		// parámetros
+		"parameter:python": "#16C8F5",
 		"selfParameter:python": {
 			"foreground": "#5CB2FF",
-			"italic": false
+			"fontStyle": ""
 		},
 		"clsParameter:python": {
 			"foreground": "#5CB2FF",
-			"italic": false
+			"fontStyle": ""
 		},
-		"class.decorator:python": {
-			"foreground": "#fffeb5",
-			"italic": false
-		},
-		"variable.declaration.readonly": {
-			"foreground": "#A4B1CD",
-		},
+		// clases
+		"class.declaration:python": "#5DEED1",
+		// decoradores
+		"class.decorator:python": "#fffeb5",
+		// módulos
+		"module:python": "#ffffffdf",
+		// variables
+		"builtinConstant:python": "#5CB2FF",
+		"variable.declaration.readonly": "#A4B1CD",
 		"property:python": "#9CDCFE",
 	}
 }
