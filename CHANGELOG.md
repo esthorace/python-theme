@@ -3,10 +3,17 @@
 All notable changes to the "python-theme" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [1.0.13] - 2024-05-7
+## [1.1.4] - 2024-05-7
 
 - Improve: regexp
+
+## [1.1.3] - 2024-04-28
+
+- Improve: contrast and variable colors
+
+## [1.1.0] - 2024-04-24
+
+- Improve: theme in general
 
 ## [1.0.9] - 2024-04-16
 
