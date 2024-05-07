@@ -1785,7 +1785,8 @@
 			"name": "Python: Cadenas",
 			"scope": [
 				"string.quoted.single.python",
-				"meta.fstring.python string.quoted.single.python"
+				"meta.fstring.python string.quoted.single.python",
+				"string.regexp.quoted.single.python",
 			],
 			"settings": {
 				"foreground": "#C5F467"
