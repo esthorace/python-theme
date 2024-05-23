@@ -1761,6 +1761,7 @@
 				"string.quoted.single.python",
 				"meta.fstring.python string.quoted.single.python",
 				"string.regexp.quoted.single.python",
+				"source.python string.regexp",
 			],
 			"settings": {
 				"foreground": "#C5F467"
@@ -1999,7 +2000,7 @@
 		"class.typeHint:python": "#5DEED1",
 		"builtinConstant.typeHint:python": "#5DEED1",
 		// parámetros
-		"parameter:python": "#569CD6",
+		"parameter:python": "#16c8f5",
 		"selfParameter:python": {
 			"foreground": "#569CD6",
 			"fontStyle": ""
@@ -2021,7 +2022,7 @@
 			"foreground": "#9cdcfe",
 		},
 		"variable.declaration.readonly": "#9cdcfe",
-		"builtinConstant:python": "#16C8F5",
+		"builtinConstant:python": "#569CD6",
 		"property:python": "#9cdcfe",
 	}
 }
