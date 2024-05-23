@@ -1827,7 +1827,8 @@
 				"string.quoted.docstring.multi.python",
 			],
 			"settings": {
-				"foreground": "#547491"
+				"foreground": "#547491",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -2022,7 +2023,7 @@
 			"foreground": "#9cdcfe",
 		},
 		"variable.declaration.readonly": "#9cdcfe",
-		"builtinConstant:python": "#569CD6",
+		"builtinConstant:python": "#A4B1CD",
 		"property:python": "#9cdcfe",
 	}
 }
