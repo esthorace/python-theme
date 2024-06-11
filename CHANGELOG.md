@@ -3,6 +3,11 @@
 All notable changes to the "python-theme" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+
+## [2.0.0] - 2025-06-11
+
+- Add Python Light Theme
+
 ## [1.1.4] - 2024-05-7
 
 - Improve: regexp

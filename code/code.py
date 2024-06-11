@@ -5,7 +5,7 @@ strings = "Esta es una cadena"  # comment
 fstring = f"Prueba: '{strings}'\n"
 booleans_none = {"true": True, "false": False, "none": None}
 operations: bool = 12 > 2 and 23 == 23 < 100 + 12 * 2 / 2
-tupla = (23,)
+tupla = (23, ...)
 lista = [12, "3", "fdgs"]
 
 
@@ -24,7 +24,7 @@ class Person:
         self.name = name
 
 
-class User(Person):
+class User(Person, object):
     def generate_password(self) -> str:
         return self.name[::-1]
 

@@ -1,6 +1,6 @@
 {
   "name": "python-theme",
-  "version": "1.1.7",
+  "version": "2.0.0",
   "license": "MIT",
   "publisher": "esthorace",
   "displayName": "Python Theme",
@@ -16,17 +16,23 @@
     "python",
     "django",
     "dark",
+    "light",
     "theme",
     "tema",
     "color",
     "python theme"
-],
+  ],
   "contributes": {
     "themes": [
       {
-        "label": "Python Theme",
+        "label": "Python Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/python-theme-color-theme.json"
+      },
+      {
+        "label": "Python Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/python-theme-light-color-theme.json"
       }
     ]
   },
@@ -38,5 +44,8 @@
   "repository": {
     "url": "https://github.com/esthorace/python-theme.git",
     "type": "git"
+  },
+  "dependencies": {
+    "vsce": "^1.97.0"
   }
 }
