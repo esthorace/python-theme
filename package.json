@@ -44,8 +44,5 @@
   "repository": {
     "url": "https://github.com/esthorace/python-theme.git",
     "type": "git"
-  },
-  "dependencies": {
-    "vsce": "^1.97.0"
   }
 }
