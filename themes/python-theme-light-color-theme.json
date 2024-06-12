@@ -1219,7 +1219,7 @@
 				// "punctuation.separator.colon.python",
 			],
 			"settings": {
-				"foreground": "#f21d1d",
+				"foreground": "#C43058",
 			}
 		},
 		{
@@ -1246,7 +1246,7 @@
 				// "source.python string.regexp",
 			],
 			"settings": {
-				"foreground": "#02af6a"
+				"foreground": "#007B49"
 			}
 		},
 		{
@@ -1258,7 +1258,7 @@
 				//     "punctuation.definition.string.end.python string.interpolated.python string.quoted.single.python",
 			],
 			"settings": {
-				"foreground": "#16f39b",
+				"foreground": "#007B49",
 			}
 		},
 		{
@@ -1269,7 +1269,7 @@
 				// "source.python keyword.operator.assignment",
 			],
 			"settings": {
-				"foreground": "#f21d1d",
+				"foreground": "#C43058",
 			}
 		},
 		{
@@ -1459,7 +1459,7 @@
 				"punctuation.separator.key-value.html"
 			],
 			"settings": {
-				"foreground": "#02af6a",
+				"foreground": "#007B49",
 			}
 		},
 		{
@@ -1500,7 +1500,7 @@
 				"meta.tag.structure.django",
 			],
 			"settings": {
-				"foreground": "#f21d1d"
+				"foreground": "#C43058"
 			}
 		}
 	],
@@ -1510,7 +1510,7 @@
 		// parámetros
 		"parameter.declaration": "#1f2939ff",
 		"parameter": {
-			"foreground": "#2e4975",
+			"foreground": "#1f2939ff",
 			"italic": true
 		},
 		"selfParameter": {
@@ -1544,7 +1544,7 @@
 			// "foreground": "#9cdcfe",
 		},
 		"variable.declaration.readonly": "#1f2939ff",
-		"property:python": "#2e4975",
+		"property:python": "#1f2939ff",
 		"class:python": "#264dcb",
 	}
 }
