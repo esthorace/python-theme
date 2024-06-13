@@ -1,10 +1,10 @@
 {
   "name": "python-theme",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "MIT",
   "publisher": "esthorace",
   "displayName": "Python Theme",
-  "description": "It’s a beautiful theme inspired by HackTheBox with some visualization enhancements for Python, HTML, and Django.",
+  "description": "It’s a beautiful theme inspired by HackTheBox and Monospace IDX with some visualization enhancements for Python, HTML, and Django.",
   "icon": "static/python.png",
   "engines": {
     "vscode": "^1.54.0"

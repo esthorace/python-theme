@@ -1206,7 +1206,6 @@
 			],
 			"settings": {
 				"foreground": "#1f2939ff",
-				// "fontStyle": "bold"
 			}
 		},
 		{
@@ -1247,18 +1246,6 @@
 			],
 			"settings": {
 				"foreground": "#007B49"
-			}
-		},
-		{
-			"name": "Python: Cadenas > Comienzo y fin",
-			"scope": [
-				//     "punctuation.definition.string.begin.python ",
-				//     "punctuation.definition.string.end.python",
-				//     "punctuation.definition.string.begin.python string.interpolated.python string.quoted.single.python",
-				//     "punctuation.definition.string.end.python string.interpolated.python string.quoted.single.python",
-			],
-			"settings": {
-				"foreground": "#007B49",
 			}
 		},
 		{
@@ -1312,7 +1299,7 @@
 			],
 			"settings": {
 				"foreground": "#94abc1",
-				// "fontStyle": "bold"
+				// "fontStyle": "italic"
 			}
 		},
 		{
@@ -1373,19 +1360,6 @@
 			],
 			"settings": {
 				"foreground": "#264dcb",
-			}
-		},
-		{
-			"scope": [
-				// "punctuation.definition.dict.begin.python",
-				// "punctuation.definition.dict.end.python",
-				// "punctuation.definition.list.begin.python",
-				// "punctuation.definition.list.end.python",
-				// "punctuation.parenthesis.begin.python",
-				// "punctuation.parenthesis.end.python"
-			],
-			"settings": {
-				"foreground": "#6f4cdeff",
 			}
 		},
 		// *********************************
@@ -1505,46 +1479,77 @@
 		}
 	],
 	"semanticTokenColors": {
-		// typehint
-		"builtinConstant.typeHint": "#569CD6",
-		// parámetros
-		"parameter.declaration": "#1f2939ff",
-		"parameter": {
-			"foreground": "#1f2939ff",
-			"italic": true
+		// módulos
+		"module": {
+			"fontStyle": "",
+			"foreground": "#8c1de0"
 		},
-		"selfParameter": {
-			"foreground": "#2d4b7c",
-			// "fontStyle": "italic"
+		// definiciones
+		"function.declaration": {
+			"fontStyle": "",
+			"foreground": "#d07826ff",
+			// "foreground": "#1f2939ff",
 		},
-		"clsParameter": {
-			"foreground": "#2d4b7c",
-			// "fontStyle": "italic"
+		"method.declaration": {
+			"fontStyle": "",
+			"foreground": "#d07826ff",
+			// "foreground": "#1f2939ff",
 		},
 		"class.declaration": {
+			"fontStyle": "",
 			"foreground": "#d07826ff",
-		},
-		"class.typeHint": {
-			"foreground": "#569CD6",
+			// "foreground": "#1f2939ff",
 		},
 		"class.decorator:python": {
 			"foreground": "#264dcb",
 			"italic": true
 		},
-		"method.declaration": {
-			"foreground": "#d07826ff",
+		"class": {
+			"fontStyle": "",
+			"foreground": "#264dcb"
 		},
-		"function.declaration": {
-			"foreground": "#d07826ff",
+		// typehint
+		"builtinConstant.typeHint:python": {
+			"fontStyle": "",
+			"foreground": "#46aae4"
 		},
-		"module": {
-			"foreground": "#a23eef",
+		"class.typeHint": {
+			"fontStyle": "",
+			"foreground": "#46aae4"
 		},
-		"variable": {
-			// "foreground": "#9cdcfe",
+		// parámetros
+		"parameter.declaration": {
+			"fontStyle": "",
+			"foreground": "#1f2939ff"
 		},
-		"variable.declaration.readonly": "#1f2939ff",
-		"property:python": "#1f2939ff",
-		"class:python": "#264dcb",
+		"parameter": {
+			"fontStyle": "",
+			"foreground": "#1F2939"
+		},
+		"selfParameter.declaration": {
+			"fontStyle": "",
+			"foreground": "#4165a0"
+		},
+		"selfParameter": {
+			"fontStyle": "",
+			"foreground": "#4165a0"
+		},
+		"clsParameter.declaration": {
+			"foreground": "#4165a0",
+		},
+		"clsParameter": {
+			"foreground": "#4165a0",
+		},
+		// variables
+		"variable.readonly": {
+			"fontStyle": "",
+			"foreground": "#1f2939"
+		},
+		"property.declaration": {
+			"foreground": "#1F2939"
+		},
+		"property:python": {
+			"foreground": "#1F2939"
+		},
 	}
 }
