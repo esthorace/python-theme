@@ -352,20 +352,20 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#547491",
+				"foreground": "#6286a7",
 			}
 		},
 		{
 			"scope": "comment.line",
 			"settings": {
-				"foreground": "#547491",
+				"foreground": "#6286a7",
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "comment.block",
 			"settings": {
-				"foreground": "#547491",
+				"foreground": "#6286a7",
 				"fontStyle": "italic"
 			}
 		},
@@ -1827,8 +1827,8 @@
 				"string.quoted.docstring.multi.python",
 			],
 			"settings": {
-				"foreground": "#547491",
-				"fontStyle": "bold"
+				"foreground": "#6286a7",
+				// "fontStyle": "bold"
 			}
 		},
 		{
