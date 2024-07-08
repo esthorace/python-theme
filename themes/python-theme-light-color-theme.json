@@ -80,8 +80,8 @@
 		"editorGutter.foldingControlForeground": "#5d6a7d",
 		"editorGutter.modifiedBackground": "#a2b6ff",
 		"editorHint.foreground": "#17975f",
-		"editorIndentGuide.activeBackground": "#bfc7d2",
-		"editorIndentGuide.background": "#e7ebf2",
+		"editorIndentGuide.activeBackground1": "#bfc7d2",
+		"editorIndentGuide.background1": "#e7ebf2",
 		"editorInfo.foreground": "#5173f1",
 		"editorInlayHint.background": "#7382951a",
 		"editorInlayHint.foreground": "#738295",
@@ -185,7 +185,7 @@
 		"sideBarTitle.foreground": "#333e4f",
 		"statusBar.background": "#ffffff",
 		"statusBar.border": "#d9dfe7",
-		"statusBar.debuggingBackground": "#fc8f8e",
+		"statusBar.debuggingBackground": "#4a5748d3",
 		"statusBar.debuggingForeground": "#000000",
 		"statusBar.foreground": "#5d6a7d",
 		"statusBar.noFolderBackground": "#ffffff",
@@ -1196,7 +1196,7 @@
 				"punctuation.definition.comment.python"
 			],
 			"settings": {
-				"foreground": "#9ab4cc",
+				"foreground": "#88a1b9",
 				"fontStyle": "italic"
 			}
 		},
