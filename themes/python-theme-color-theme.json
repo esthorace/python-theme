@@ -1909,7 +1909,11 @@
 			"name": "Django. Cadenas",
 			"scope": [
 				"string.quoted.single.django",
-				"string.quoted.double.django"
+				"string.quoted.double.django",
+				"string.quoted.single.html storage.type.templatetag.django",
+				"string.quoted.double.html storage.type.templatetag.django",
+				"text.html.django meta.tag.inline.any.html string.quoted.double.html storage.type.templatetag.django string.quoted.single.html",
+				"text.html.django storage.type.templatetag.django string.quoted.single.html",
 			],
 			"settings": {
 				"foreground": "#A4B1CD"
@@ -1928,6 +1932,7 @@
 		{
 			"name": "Django: Variables",
 			"scope": [
+				"string.unquoted.tag-string.django",
 				"variable.other.django",
 				"support.type.variable.begin.django",
 				"support.type.variable.end.django",
@@ -1935,7 +1940,8 @@
 				"meta.variable.structure.django",
 			],
 			"settings": {
-				"foreground": "#FFCC5C"
+				// "foreground": "#FFCC5C"
+				"foreground": "#C5F467"
 			}
 		},
 		{
@@ -1948,6 +1954,7 @@
 		{
 			"name": "HTML: texto",
 			"scope": [
+				"text.html.django",
 				"text.html.derivative",
 			],
 			"settings": {
@@ -1985,6 +1992,10 @@
 			"name": "Django: Estructuras de control",
 			"scope": [
 				"keyword.control.django",
+				"keyword.control.tag-name.django",
+				"storage.type.templatetag.django entity.tag.tagbraces.django",
+				"storage.type.variable.django entity.tag.tagbraces.django",
+				"text.html.django meta.tag.inline.any.html string.quoted.double.html storage.type.variable.django entity.tag.tagbraces.django",
 				"support.type.tag.begin.django",
 				"support.type.tag.end.django",
 				"string.quoted.single.begin.django",
@@ -1992,7 +2003,8 @@
 				"meta.tag.structure.django",
 			],
 			"settings": {
-				"foreground": "#C5F467"
+				// "foreground": "#C5F467"
+				"foreground": "#FFCC5C"
 			}
 		},
 	],
