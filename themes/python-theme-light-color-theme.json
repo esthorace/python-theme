@@ -354,15 +354,15 @@
 		},
 		{
 			"scope": [
-				// "support.type.property-name",
-				// "entity.name.tag.yaml"
+				"support.type.property-name",
+				"entity.name.tag.yaml"
 			],
 			"settings": {
 				"foreground": "#0075A2"
 			}
 		},
 		{
-			// "scope": "meta.property-name",
+			"scope": "meta.property-name",
 			"settings": {
 				"foreground": "#264DCB"
 			}
@@ -479,9 +479,48 @@
 			}
 		},
 		{
-			"scope": "punctuation.definition.list.begin.markdown",
+			"scope": [
+				"heading.1.markdown punctuation.definition.heading.markdown",
+				"heading.1.markdown entity.name.section.markdown",
+			],
+			"settings": {
+				"foreground": "#C43058"
+			}
+		},
+		{
+			"scope": [
+				"heading.2.markdown punctuation.definition.heading.markdown",
+				"heading.2.markdown entity.name.section.markdown",
+			],
+			"settings": {
+				"foreground": "#264DCB"
+			}
+		},
+		{
+			"scope": [
+				"heading.3.markdown punctuation.definition.heading.markdown",
+				"heading.3.markdown entity.name.section.markdown",
+			],
 			"settings": {
 				"foreground": "#D07826"
+			}
+		},
+		{
+			"scope": [
+				"markup.fenced_code.block.markdown",
+				"markup.raw.block.markdown",
+			],
+			"settings": {
+				"foreground": "#569CD6"
+			}
+		},
+		{
+			"scope": [
+				"markup.list.numbered.markdown punctuation.definition.list.begin.markdown",
+				"markup.list.unnumbered.markdown punctuation.definition.list.begin.markdown",
+			],
+			"settings": {
+				"foreground": "#007B49"
 			}
 		},
 		{
@@ -826,8 +865,6 @@
 			"scope": [
 				"string.quoted.single.django",
 				"string.quoted.double.django",
-				"text.html.django storage.type.variable.django entity.tag.tagbraces.django",
-				"text.html.django storage.type.templatetag.django string.quoted.single.html",
 			],
 			"settings": {
 				"foreground": "#a23eef"
@@ -840,8 +877,6 @@
 				"string.quoted.double.end.django",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"text.html.django meta.tag.block.any.html entity.name.tag.block.any.html",
-				"text.html.django meta.tag.inline.any.html entity.name.tag.inline.any.html"
 			],
 			"settings": {
 				"foreground": "#264dcb"
@@ -851,13 +886,8 @@
 			"name": "Django: Variables",
 			"scope": [
 				"variable.other.django",
-				"support.type.variable.begin.django",
-				"support.type.variable.end.django",
 				"support.function.django",
 				"meta.variable.structure.django",
-				"text.html.django storage.type.templatetag.django string.unquoted.tag-string.django",
-				"text.html.django storage.type.variable.django string.unquoted.tag-string.django",
-				"text.html.django meta.tag.inline.any.html string.quoted.double.html storage.type.variable.django string.unquoted.tag-string.django",
 				"keyword.operator.getter.django",
 			],
 			"settings": {
@@ -915,7 +945,9 @@
 			"name": "HTML: Cadenas en atributos > inicio y fin",
 			"scope": [
 				"punctuation.definition.string.begin.html",
-				"punctuation.definition.string.end.html"
+				"punctuation.definition.string.end.html",
+				"support.type.variable.begin.django",
+				"support.type.variable.end.django",
 			],
 			"settings": {
 				"foreground": "#C43058"
@@ -926,16 +958,18 @@
 				"entity.name.tag.html"
 			],
 			"settings": {
-				"foreground": "#C43058",
+				"foreground": "#264dcb",
 			}
 		},
 		{
 			"scope": [
 				"entity.other.attribute-name.html",
-				"punctuation.separator.key-value.html"
+				"punctuation.separator.key-value.html",
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.string.end.html"
 			],
 			"settings": {
-				"foreground": "#d07826"
+				"foreground": "#007B49"
 			}
 		},
 		{

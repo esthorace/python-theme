@@ -1320,6 +1320,22 @@
 		},
 		{
 			"scope": [
+				"heading.2.markdown entity.name.section.markdown",
+			],
+			"settings": {
+				"foreground": "#FFCC5C",
+			},
+		},
+		{
+			"scope": [
+				"heading.3.markdown entity.name.section.markdown",
+			],
+			"settings": {
+				"foreground": "#ffffff",
+			},
+		},
+		{
+			"scope": [
 				"text.html.markdown",
 				"punctuation.definition.list_item.markdown"
 			],
@@ -2015,11 +2031,11 @@
 		// parámetros
 		"parameter:python": "#16c8f5",
 		"selfParameter:python": {
-			"foreground": "#569CD6",
+			"foreground": "#3781c2",
 			"fontStyle": ""
 		},
 		"clsParameter:python": {
-			"foreground": "#569CD6",
+			"foreground": "#3781c2",
 			"fontStyle": ""
 		},
 		"class:python": {
@@ -2035,7 +2051,7 @@
 			"foreground": "#9cdcfe",
 		},
 		"variable.declaration.readonly": "#9cdcfe",
-		"builtinConstant:python": "#A4B1CD",
+		"builtinConstant:python": "#76b7db",
 		"property:python": "#9cdcfe",
 	}
 }
