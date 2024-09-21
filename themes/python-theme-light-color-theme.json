@@ -826,8 +826,6 @@
 			"scope": [
 				"string.quoted.single.django",
 				"string.quoted.double.django",
-				"text.html.django storage.type.variable.django entity.tag.tagbraces.django",
-				"text.html.django storage.type.templatetag.django string.quoted.single.html",
 			],
 			"settings": {
 				"foreground": "#a23eef"
@@ -840,8 +838,6 @@
 				"string.quoted.double.end.django",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"text.html.django meta.tag.block.any.html entity.name.tag.block.any.html",
-				"text.html.django meta.tag.inline.any.html entity.name.tag.inline.any.html"
 			],
 			"settings": {
 				"foreground": "#264dcb"
@@ -855,9 +851,6 @@
 				"support.type.variable.end.django",
 				"support.function.django",
 				"meta.variable.structure.django",
-				"text.html.django storage.type.templatetag.django string.unquoted.tag-string.django",
-				"text.html.django storage.type.variable.django string.unquoted.tag-string.django",
-				"text.html.django meta.tag.inline.any.html string.quoted.double.html storage.type.variable.django string.unquoted.tag-string.django",
 				"keyword.operator.getter.django",
 			],
 			"settings": {
