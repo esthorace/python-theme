@@ -4,10 +4,13 @@ All notable changes to the "python-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.9.8] - 2024-11-05
+
+- Improve colors Python Light Theme
+
 ## [2.0.7] - 2024-09-21
 
 - Improve markdown colors
-
 
 ## [2.0.0] - 2024-06-11
 
