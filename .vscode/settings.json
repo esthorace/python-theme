@@ -784,7 +784,8 @@
                         "comment",
                     ],
                     "settings": {
-                        "foreground": "#6286a7",
+                        // "foreground": "#6286a7",
+                        "foreground": "#646D74",
                     }
                 },
                 {
@@ -859,9 +860,7 @@
                         "punctuation.definition.tag.end.html"
                     ],
                     "settings": {
-                        // "foreground": "#8A2D92"
-                        // "foreground": "#7933a8"
-                        "foreground": "#9d3030"
+                        "foreground": "#934141"
                     }
                 },
                 {
@@ -870,7 +869,6 @@
                         "entity.other.attribute-name"
                     ],
                     "settings": {
-                        // "foreground": "#16C8F5"
                         "foreground": "#9CDCFE"
                     }
                 },
