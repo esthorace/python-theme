@@ -1,7 +1,7 @@
 # VSCE
 
 ```bash
-npm install -g @vscode/vsce
-vsce package
-vsce publish
+npm install @vscode/vsce
+npx vsce package
+npx vsce publish
 ```

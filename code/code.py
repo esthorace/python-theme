@@ -16,6 +16,8 @@ def function(num1: int, num2: int) -> float | None:
         return num1 / num2
 
 
+a = {2, 3, 4}
+
 function(num1=12, num2=2)
 
 
@@ -28,9 +30,10 @@ class User(Person, object):
     def generate_password(self) -> str:
         return self.name[::-1]
 
-    @staticmethod
-    def salary():
+    @classmethod
+    def salary(cls):
         print("hey")
 
 
 user = User("Python")
+salario()

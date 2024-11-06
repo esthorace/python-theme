@@ -40,5 +40,8 @@
   "repository": {
     "url": "git+https://github.com/esthorace/python-theme.git",
     "type": "git"
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.2.1"
   }
 }
