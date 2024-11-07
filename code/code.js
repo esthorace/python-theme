@@ -1,18 +1,44 @@
-/* Comentario 
-múltiple 
-linea con ctr + may + A
-*/
+document.addEventListener("DOMContentLoaded", () => {
+    const contenidoPrincipal = document.getElementById("view-transition");
+    const contenidoInicial = contenidoPrincipal.innerHTML;
 
-console.log("Este es un mensaje común:", 12 + 32)
+    // Configura los enlaces principales para cargar contenido dinámico
+    function configurarLinks() {
+        document.querySelectorAll("a").forEach(link => {
+            link.addEventListener("click", cargarContenido);
+        });
+    }
 
-var nombre
-console.log(nombre)
+    // Cargar contenido al hacer clic en un enlace
+    async function cargarContenido(event) {
+        event.preventDefault();
+        const destino = event.currentTarget.getAttribute("href");
 
-let numero = 123.34
+        const respuesta = await fetch(destino);
+        const contenidoHTML = await respuesta.text();
 
-function sumar(a, b) {
-    return a + b
-}
+        document.startViewTransition(() => {
+            contenidoPrincipal.innerHTML = contenidoHTML;
+            configurarEstadoAnterior();
+        });
+    }
 
-let suma = sumar(12, 3)
-console.log(suma)
+    function configurarEstadoAnterior() {
+        const menuVolver = contenidoPrincipal.querySelector("a");
+        if (menuVolver) {
+            menuVolver.addEventListener("click", restaurarEstadoAnterior);
+        }
+    }
+
+    // Restaura el contenido inicial
+    function restaurarEstadoAnterior(event) {
+        event.preventDefault();
+        document.startViewTransition(() => {
+            contenidoPrincipal.innerHTML = contenidoInicial;
+            configurarLinks();
+        });
+    }
+    
+    configurarLinks();
+    
+});

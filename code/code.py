@@ -36,4 +36,3 @@ class User(Person, object):
 
 
 user = User("Python")
-salario()

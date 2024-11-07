@@ -115,7 +115,8 @@
                                    href="{% url 'ArtListAutor' articulo_4.autor.pk %}">{{ articulo_4.autor }}</a>
                                 {% if articulo_4.autor.avatar %}
                                     <img class="img rounded-circle"
-                                         src="{{ articulo_4.autor.avatar.imagen.url }}"
+                                         src="{{ articulo_4.autor.avatar
+                                            .imagen.url }}"
                                          alt=""
                                          height="30px">
                                 {% endif %}
