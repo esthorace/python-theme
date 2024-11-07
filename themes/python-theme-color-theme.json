@@ -1,5 +1,6 @@
 {
 	"name": "Python Theme",
+	"semanticHighlighting": true,
 	"type": "dark",
 	"colors": {
 		"actionBar.toggledBackground": "#383a49",
@@ -875,7 +876,6 @@
 			}
 		},
 		{
-			"name": "", // TODO
 			"scope": [
 				"meta.type.cast.expr",
 				"meta.type.new.expr",
