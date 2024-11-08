@@ -1,3 +1,9 @@
 {
     "python.analysis.typeCheckingMode": "off",
+    "workbench.colorCustomizations": {},
+    "editor.tokenColorCustomizations": {
+        "[Python Light Theme]": {
+            "textMateRules": []
+        }
+    }
 }
