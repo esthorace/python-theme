@@ -99,7 +99,7 @@
 		"editorGutter.modifiedBackground": "#004cffcc",
 		"editorHoverWidget.background": "#1a2332",
 		"editorHoverWidget.foreground": "#a4b1cd",
-		"editorIndentGuide.activeBackground1": "#212c3d",
+		"editorIndentGuide.activeBackground1": "#00ff089a",
 		"editorIndentGuide.background1": "#121c2b",
 		"editorLightBulb.foreground": "#ffaf00",
 		"editorLightBulbAutoFix.foreground": "#9fef00",
@@ -1285,7 +1285,7 @@
 			}
 		},
 		// ***
-		// DJANGO
+		// DJANGO SUPPORT
 		// ***
 		{
 			"name": "Django: Variables",
@@ -1306,6 +1306,28 @@
 			"settings": {
 				"foreground": "#D7BA7D",
 				"fontStyle": ""
+			}
+		},
+		// ***
+		// BETTER NINJA
+		// ***
+		{
+			"name": "Extension: Better Jinja: HTML: text",
+			"scope": [
+				"text.html.jinja"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Extension: Better Jinja: HTML: atributes ",
+			"scope": [
+				"text.html.jinja string.quoted.double.html",
+				"text.html.jinja punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#569CD6"
 			}
 		},
 		// JAVASCRIPT
