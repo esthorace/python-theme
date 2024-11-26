@@ -4,9 +4,13 @@ All notable changes to the "python-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.14] - 2024-11-26
+
+- Improve Dark Theme: % strings Python
+
 ## [2.0.12] - 2024-11-15
 
-- Improve Dark theme: menu colors
+- Improve Dark Theme: menu colors
 
 ## [2.0.11] - 2024-11-12
 

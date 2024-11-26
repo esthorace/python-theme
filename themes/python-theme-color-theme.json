@@ -1007,7 +1007,8 @@
 			"name": "Strings",
 			"scope": [
 				"string",
-				"meta.embedded.assembly"
+				"meta.embedded.assembly",
+				"constant.character.format.placeholder.other.python"
 			],
 			"settings": {
 				"foreground": "#d2ff77"
