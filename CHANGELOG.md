@@ -4,6 +4,10 @@ All notable changes to the "python-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.15] - 2024-12-11
+
+- Improve Dark Theme: minimap background
+
 ## [2.0.14] - 2024-11-26
 
 - Improve Dark Theme: % strings Python
