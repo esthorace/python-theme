@@ -4,6 +4,10 @@ All notable changes to the "python-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.0.16] - 2024-12-13
+
+- Improve Dark Theme: colors: find filter (alt + ctrl + f in explorer)
+
 ## [2.0.15] - 2024-12-11
 
 - Improve Dark Theme: minimap background
