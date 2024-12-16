@@ -68,9 +68,6 @@
 		"dropdown.foreground": "#a4b1cd",
 		"dropdown.listBackground": "#121c2b",
 		"editor.background": "#0f1724",
-		"editorStickyScroll.background": "#121c2b",
-		"editorStickyScroll.shadow": "#9fef008c",
-		"editorStickyScrollHover.background": "#9fef0031",
 		"editor.findMatchBackground": "#6e7b96a1",
 		"editor.findMatchHighlightBackground": "#6e7b96cc",
 		"editor.findRangeHighlightBackground": "#6e7b96cc",
@@ -84,6 +81,11 @@
 		"editor.selectionForeground": "#121c2b",
 		"editor.selectionHighlightBackground": "#6e7b968c",
 		"editor.stackFrameHighlightBackground": "#6e7b968c",
+		"editorBracketHighlight.foreground1": "#08c19c",
+		"editorBracketHighlight.foreground2": "#D7BA7D",
+		"editorBracketHighlight.foreground3": "#F87F7F",
+		"editorBracketHighlight.foreground4": "#66ff00",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ffffff",
 		"editorBracketMatch.border": "#313f55",
 		"editorCursor.background": "#9fef00",
 		"editorCursor.foreground": "#9fef00",
@@ -116,6 +118,9 @@
 		"editorOverviewRuler.warningForeground": "#ffaf00",
 		"editorOverviewRuler.wordHighlightForeground": "#a4b1cddc",
 		"editorRuler.foreground": "#14299191",
+		"editorStickyScroll.background": "#121c2b",
+		"editorStickyScroll.shadow": "#9fef008c",
+		"editorStickyScrollHover.background": "#9fef0031",
 		"editorSuggestWidget.background": "#1a2332",
 		"editorSuggestWidget.border": "#1a2332",
 		"editorSuggestWidget.foreground": "#a4b1cd",
@@ -1331,6 +1336,65 @@
 			],
 			"settings": {
 				"foreground": "#569CD6"
+			}
+		},
+		{
+			"scope": "text.html.django",
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		// Django Template Support
+		{
+			"scope": [
+				"text.html.django storage.type.templatetag.django keyword.operator.django"
+			],
+			"settings": {
+				"foreground": "#CF8DFB"
+			}
+		},
+		{
+			"scope": [
+				"text.html.django meta.tag.inline.any.html string.quoted.double.html",
+				"text.html.django meta.tag.inline.any.html string.quoted.double.html punctuation.definition.string.begin.html",
+				"text.html.django meta.tag.inline.any.html string.quoted.double.html punctuation.definition.string.end.html",
+				"text.html.django meta.tag.block.any.html string.quoted.double.html",
+				"text.html.django meta.tag.block.any.html string.quoted.double.html punctuation.definition.string.begin.html",
+				"text.html.django meta.tag.block.any.html string.quoted.double.html punctuation.definition.string.end.html",
+				"text.html.django meta.tag.block.any.html",
+				"text.html.django meta.tag.inline.any.html",
+			],
+			"settings": {
+				"foreground": "#569CD6"
+			}
+		},
+		{
+			"scope": [
+				"text.html.django storage.type.templatetag.django string.unquoted.tag-string.django",
+				"text.html.django storage.type.variable.django string.unquoted.tag-string.django",
+				"text.html.django meta.tag.inline.any.html string.quoted.double.html storage.type.templatetag.django string.quoted.single.html punctuation.definition.string.begin.html"
+			],
+			"settings": {
+				"foreground": "#D7BA7D"
+				// "foreground": "#D2FF77"
+			}
+		},
+		{
+			"scope": [
+				"text.html.django meta.tag.inline.any.html string.quoted.double.html storage.type.templatetag.django string.quoted.single.html punctuation.definition.string.begin.html",
+				"text.html.django meta.tag.inline.any.html string.quoted.double.html storage.type.templatetag.django string.quoted.single.html punctuation.definition.string.end.html"
+			],
+			"settings": {
+				"foreground": "#84a640"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.templatetag.django",
+				"storage.type.variable.django"
+			],
+			"settings": {
+				"foreground": "#5DEED1"
 			}
 		},
 		// JAVASCRIPT

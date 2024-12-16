@@ -4,6 +4,13 @@ All notable changes to the "python-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.1.0] - 2024-12-16
+
+- Add "Editor Bracket Highlight"
+
+- Add colors for "Django Template Support" extension
+
+
 ## [2.0.16] - 2024-12-13
 
 - Improve Dark Theme: colors: find filter (alt + ctrl + f in explorer)
