@@ -1391,10 +1391,11 @@
 		{
 			"scope": [
 				"storage.type.templatetag.django",
-				"storage.type.variable.django"
+				"storage.type.variable.django",
+				"storage.type.customtemplatetag.django",
 			],
 			"settings": {
-				"foreground": "#5DEED1"
+				"foreground": "#08c19c"
 			}
 		},
 		// JAVASCRIPT
