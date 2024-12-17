@@ -4,6 +4,10 @@ All notable changes to the "python-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.1.2] - 2024-12-17
+
+- Add images
+
 ## [2.1.0] - 2024-12-16
 
 - Add "Editor Bracket Highlight"
