@@ -224,7 +224,7 @@
 		"pickerGroup.border": "#3c3c3c",
 		"ports.iconRunningProcessForeground": "#369432",
 		"progressBar.background": "#9fef00",
-		"quickInput.background": "#222222",
+		"quickInput.background": "#0e141e",
 		"quickInput.foreground": "#cccccc",
 		"scrollbar.shadow": "#121c2b",
 		"scrollbarSlider.activeBackground": "#9fef0093",
@@ -255,8 +255,8 @@
 		"sideBarTitle.foreground": "#ffaf00",
 		"statusBar.background": "#1a2332",
 		"statusBar.border": "#1a2332",
-		"statusBar.debuggingBackground": "#F87F7F",
-		"statusBar.debuggingForeground": "#121c2b",
+		"statusBar.debuggingBackground": "#00255dcc",
+		"statusBar.debuggingForeground": "#bdefff",
 		"statusBar.focusBorder": "#0078d4",
 		"statusBar.foreground": "#a4b1cd",
 		"statusBar.noFolderBackground": "#1a2332",
@@ -303,7 +303,6 @@
 		"testing.iconQueued": "#a4b1cd",
 		"testing.iconSkipped": "#a4b1cd",
 		"testing.iconUnset": "#a4b1cd",
-		"testing.message.error.decorationForeground": "#ff3e3e",
 		"testing.message.error.lineBackground": "#ff3e3e",
 		"testing.message.info.decorationForeground": "#004cff",
 		"testing.message.info.lineBackground": "#004cff",
@@ -326,8 +325,8 @@
 		"welcomePage.background": "#121c2b",
 		"welcomePage.progress.foreground": "#0078d4",
 		"welcomePage.tileBackground": "#2b2b2b",
-		"widget.border": "#313131",
-		"widget.shadow": "#121c2b7e",
+		"widget.border": "#9fef00",
+		"widget.shadow": "#9fef00",
 		"window.activeBorder": "#1a2332",
 	},
 	"tokenColors": [
@@ -977,6 +976,7 @@
 			],
 			"settings": {
 				"foreground": "#6286a7",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1393,6 +1393,7 @@
 				"storage.type.templatetag.django",
 				"storage.type.variable.django",
 				"storage.type.customtemplatetag.django",
+				"storage.type.templatetag.django entity.tag.tagbraces.django"
 			],
 			"settings": {
 				"foreground": "#08c19c"

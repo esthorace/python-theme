@@ -1,6 +1,6 @@
 # Python Theme
 
-It’s a beautiful theme inspired by HackTheBox with some visualization enhancements for Python, Django, HTML, CSS and Javascript.
+It’s a beautiful theme with some visualization enhancements for Python, Django, HTML, CSS and Javascript.
 
 ## Python Dark Theme
 
