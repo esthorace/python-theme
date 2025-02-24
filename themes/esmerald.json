@@ -327,12 +327,9 @@
 		"welcomePage.tileBackground": "#2b2b2b",
 		"widget.border": "#9fef00",
 		"widget.shadow": "#9fef00",
-		"window.activeBorder": "#1a2332",
+		"window.activeBorder": "#1a2332"
 	},
 	"tokenColors": [
-		// ***
-		// UNDEFINED
-		// ***
 		{
 			"scope": "constant.regexp",
 			"settings": {
@@ -425,7 +422,7 @@
 			}
 		},
 		{
-			"name": "", // TODO
+			"name": "",
 			"scope": [
 				"meta.embedded",
 				"source.groovy.embedded",
@@ -436,44 +433,41 @@
 				"foreground": "#D4D4D4"
 			}
 		},
-		// ***
-		// MARKDOWN
-		// ***
 		{
 			"scope": [
 				"heading.1.markdown",
-				"heading.1.markdown punctuation.definition.heading.markdown",
+				"heading.1.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#ffffff",
-			},
+				"foreground": "#ffffff"
+			}
 		},
 		{
 			"scope": [
 				"heading.2.markdown",
-				"heading.2.markdown punctuation.definition.heading.markdown",
+				"heading.2.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#F87F7F",
-			},
+				"foreground": "#F87F7F"
+			}
 		},
 		{
 			"scope": [
 				"heading.3.markdown",
-				"heading.3.markdown punctuation.definition.heading.markdown",
+				"heading.3.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#D7BA7D",
-			},
+				"foreground": "#D7BA7D"
+			}
 		},
 		{
 			"scope": [
 				"heading.4.markdown",
-				"heading.4.markdown punctuation.definition.heading.markdown",
+				"heading.4.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#9CDCFE",
-			},
+				"foreground": "#9CDCFE"
+			}
 		},
 		{
 			"scope": [
@@ -708,9 +702,6 @@
 				"foreground": "#CE9178"
 			}
 		},
-		// ***
-		// OTHERS
-		// ***
 		{
 			"scope": "punctuation.definition.tag",
 			"settings": {
@@ -895,7 +886,6 @@
 			],
 			"settings": {
 				"foreground": "#4EC9B0"
-				// "foreground": "#ff0000"
 			}
 		},
 		{
@@ -920,9 +910,6 @@
 				"foreground": "#9CDCFE"
 			}
 		},
-		// ***
-		// GENERAL
-		// ***
 		{
 			"scope": "invalid",
 			"settings": {
@@ -940,20 +927,20 @@
 			"name": "Numbers",
 			"scope": [
 				"constant.numeric",
-				"variable.other.enummember",
+				"variable.other.enummember"
 			],
 			"settings": {
-				"foreground": "#A4B1CD",
+				"foreground": "#A4B1CD"
 			}
 		},
 		{
 			"name": "Operators",
 			"scope": [
-				"keyword.operator",
+				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#f4f4f4",
-			},
+				"foreground": "#f4f4f4"
+			}
 		},
 		{
 			"name": "Emphasis",
@@ -972,7 +959,7 @@
 		{
 			"name": "Comments",
 			"scope": [
-				"comment",
+				"comment"
 			],
 			"settings": {
 				"foreground": "#6286a7",
@@ -982,10 +969,10 @@
 		{
 			"name": "Python: docstrings",
 			"scope": [
-				"string.quoted.docstring.multi.python",
+				"string.quoted.docstring.multi.python"
 			],
 			"settings": {
-				"foreground": "#6286a7",
+				"foreground": "#6286a7"
 			}
 		},
 		{
@@ -996,7 +983,7 @@
 				"string.quoted.docstring.multi.python punctuation.definition.string.end.python"
 			],
 			"settings": {
-				"foreground": "#65b5ff42",
+				"foreground": "#65b5ff42"
 			}
 		},
 		{
@@ -1025,22 +1012,18 @@
 			"name": "Strings: punctuation",
 			"scope": [
 				"punctuation.definition.string.",
-				"punctuation.definition.string string.quoted.single.python",
+				"punctuation.definition.string string.quoted.single.python"
 			],
 			"settings": {
 				"foreground": "#84a640"
 			}
 		},
-		// ***
-		// HTML & CSS
-		// ***
 		{
 			"name": "HTML: tag: name",
 			"scope": [
 				"entity.name.tag"
 			],
 			"settings": {
-				// "foreground": "#F47AFF"
 				"foreground": "#F87F7F"
 			}
 		},
@@ -1052,7 +1035,6 @@
 			],
 			"settings": {
 				"foreground": "#A33C3C"
-				// "foreground": "#8A2D92"
 			}
 		},
 		{
@@ -1061,7 +1043,6 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				// "foreground": "#16C8F5"
 				"foreground": "#9CDCFE"
 			}
 		},
@@ -1069,11 +1050,10 @@
 			"name": "HTML: properties: punctuation",
 			"scope": [
 				"punctuation.separator.key-value.html",
-				"text.html.derivative punctuation.definition.string",
+				"text.html.derivative punctuation.definition.string"
 			],
 			"settings": {
 				"foreground": "#2a6696"
-				// "foreground": "#a33c3c"
 			}
 		},
 		{
@@ -1083,7 +1063,6 @@
 			],
 			"settings": {
 				"foreground": "#569CD6"
-				// "foreground": "#F87F7F"
 			}
 		},
 		{
@@ -1100,10 +1079,10 @@
 		{
 			"name": "HTML: text",
 			"scope": [
-				"text.html.derivative",
+				"text.html.derivative"
 			],
 			"settings": {
-				"foreground": "#ffffff",
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -1133,9 +1112,6 @@
 				"foreground": "#D7BA7D"
 			}
 		},
-		// ***
-		// LANGUAJES IN GENERAL
-		// ***
 		{
 			"name": "Variable Language",
 			"scope": "variable.language",
@@ -1147,7 +1123,7 @@
 			"name": "Definitions: classes & functions",
 			"scope": [
 				"storage.type.class",
-				"storage.type.function",
+				"storage.type.function"
 			],
 			"settings": {
 				"foreground": "#F87F7F"
@@ -1163,7 +1139,7 @@
 				"entity.name.operator.custom-literal",
 				"punctuation.separator.annotation.result.python",
 				"punctuation.separator.parameters.python",
-				"punctuation.separator.arguments.python",
+				"punctuation.separator.arguments.python"
 			],
 			"settings": {
 				"foreground": "#D7BA7D"
@@ -1243,9 +1219,6 @@
 				"foreground": "#9CDCFE"
 			}
 		},
-		// ***
-		// PYTHON
-		// ***
 		{
 			"name": "Function Parameters",
 			"scope": [
@@ -1289,18 +1262,15 @@
 				"keyword.operator.bitwise.python"
 			],
 			"settings": {
-				"foreground": "#A4B1CD",
+				"foreground": "#A4B1CD"
 			}
 		},
-		// ***
-		// DJANGO SUPPORT
-		// ***
 		{
 			"name": "Django: Variables",
 			"scope": [
 				"variable.other.django",
 				"keyword.operator.getter.django",
-				"meta.variable.structure.django",
+				"meta.variable.structure.django"
 			],
 			"settings": {
 				"foreground": "#D7BA7D"
@@ -1316,9 +1286,6 @@
 				"fontStyle": ""
 			}
 		},
-		// ***
-		// BETTER NINJA
-		// ***
 		{
 			"name": "Extension: Better Jinja: HTML: text",
 			"scope": [
@@ -1344,7 +1311,6 @@
 				"foreground": "#ffffff"
 			}
 		},
-		// Django Template Support
 		{
 			"scope": [
 				"text.html.django storage.type.templatetag.django keyword.operator.django"
@@ -1362,7 +1328,7 @@
 				"text.html.django meta.tag.block.any.html string.quoted.double.html punctuation.definition.string.begin.html",
 				"text.html.django meta.tag.block.any.html string.quoted.double.html punctuation.definition.string.end.html",
 				"text.html.django meta.tag.block.any.html",
-				"text.html.django meta.tag.inline.any.html",
+				"text.html.django meta.tag.inline.any.html"
 			],
 			"settings": {
 				"foreground": "#569CD6"
@@ -1398,7 +1364,6 @@
 				"foreground": "#08c19c"
 			}
 		},
-		// JAVASCRIPT
 		{
 			"scope": [
 				"source.js constant.other.object.key.js string.unquoted.label.js"
