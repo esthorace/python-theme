@@ -1,5 +1,5 @@
 {
-	"name": "Python Theme",
+	"name": "Esmerald",
 	"semanticHighlighting": true,
 	"type": "dark",
 	"colors": {
@@ -1376,7 +1376,6 @@
 			],
 			"settings": {
 				"foreground": "#D7BA7D"
-				// "foreground": "#D2FF77"
 			}
 		},
 		{
@@ -1408,6 +1407,6 @@
 				"foreground": "#F87F7F",
 				"fontStyle": "italic"
 			}
-		},
+		}
 	]
 }

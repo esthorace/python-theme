@@ -1,11 +1,11 @@
 {
   "name": "python-theme",
-  "version": "2.2.0",
+  "displayName": "Esmerald",
+  "version": "2.2.1",
   "license": "MIT",
   "publisher": "esthorace",
-  "displayName": "Python Theme",
-  "description": "It’s a beautiful theme with some visualization enhancements for Python, HTML, and Django.",
-  "icon": "static/python.png",
+  "description": "It’s a beautiful theme",
+  "icon": "static/esmerald.png",
   "engines": {
     "vscode": "^1.54.0"
   },
@@ -13,32 +13,32 @@
     "Themes"
   ],
   "keywords": [
+    "esmerald",
+    "esmeralda",
+    "javascript",
+    "typescript",
     "python",
     "django",
+    "html",
+    "node",
     "dark",
     "light",
     "theme",
     "tema",
-    "color",
-    "python theme"
+    "color"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Python Dark Theme",
+        "label": "Esmerald",
         "uiTheme": "vs-dark",
-        "path": "./themes/python-theme-color-theme.json"
-      },
-      {
-        "label": "Python Light Theme",
-        "uiTheme": "vs",
-        "path": "./themes/python-theme-light-color-theme.json"
+        "path": "./themes/esmerald.json"
       }
     ]
   },
   "author": "Esteban H. Acevedo <esteban.horacio.acevedo@gmail.com> (https://www.linkedin.com/in/esteban-acevedo-aberastain/)",
   "repository": {
-    "url": "git+https://github.com/esthorace/python-theme.git",
+    "url": "git+https://github.com/esthorace/esmerald.git",
     "type": "git"
   },
   "dependencies": {
